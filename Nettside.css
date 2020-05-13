@@ -1,0 +1,102 @@
+    body{
+        background-color: #101010;
+        background-blend-mode: screen;
+}
+
+    .a {
+        font-family: "times new roman", sans-serif;
+        font-weight: 500;
+        text-decoration-style: bold;
+        font-size: 30px;
+        color: #011936;
+        text-decoration: none;
+        list-style: none;
+}
+
+    .b {
+        font-family: "times new roman", sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+        color: #011936;
+        text-decoration: none;
+        display: flex;
+        padding: 0px 0px;
+}
+    a {
+        text-decoration: none;
+        color: #297373;
+}
+    header {
+        background-image: linear-gradient(to right, #96E6B3, #748CAB);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0.625%;
+}
+  
+    .b {
+        list-style: none;
+}
+
+    li {
+        display: inline;
+        padding: 0px 20px;
+}
+  
+    li, .a, .b{
+        color: #011936;
+        transition: all 0.1s ease 0s;
+}
+
+    h1{
+        color: #96E6B3;
+        padding-left: 0.625%;  
+}   
+
+    p{
+        color: #748CAB;
+        padding-left: 0.625%;
+        padding-right: 43.75%;
+        font-size: 20px;
+    
+}
+    .image{
+        color: #297373;
+        size: 250px;
+        height: 250px;
+}
+    .source{
+        color: #297373;
+}
+    .ball{
+        color: #297373;
+}
+    .iframe {
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%;
+}
+
+    .pdf {
+        position: absolute;
+        top: 0;
+        left: auto;
+        width: 70%;
+        height: 100%;
+        border: 0%;
+        padding-left: 3%;
+}
+    .docs{
+        position: absolute;
+        left: auto;
+        width: 70%;
+        height: 100%;
+        border: 0%;
+        padding-left: 3%;
+}
+    .alt{
+        color: #297373;
+}
+    .a:hover, li:hover{
+        text-decoration: underline;
+}
